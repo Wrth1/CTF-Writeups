@@ -15,6 +15,7 @@ flag : `flag{l00ks_l1ke_a_l0t_of_64s}`
 # pseudo-key  
 > Keys are not always as they seem...  
 > Note: Make sure to wrap the plaintext with flag{} before you submit!  
+
 The first thing we need to do is to find the key, however each key map to 2 possibilites, for example, if the encrypted key is `a` then the possibilities will be either `a` or `n` because `0 + 0 % 26 = 0` and `13 + 13 %26 = 0`. So we have to find those 2 possibilities, and then try all possible combinations from those 2 possibilities.  
 I just bruteforce everything with my ugly script    
 ```python
@@ -65,6 +66,7 @@ flag = `flag{i_guess_pseudo_keys_are_pseudo_secure}`
 
 # 4k-rsa  
 > Only n00bz use 2048-bit RSA. True gamers use keys that are at least 4k bits long, no matter how many primes it takes.  
+
 using [factordb](factordb.com) we can see that there are many prime factors of n, the way we can decrypt the ciphertext is pretty much the same with normal RSA, just multiply each factor-1 to calculate phi.  
 ```python
 from Crypto.Util.number import long_to_bytes as ltb
