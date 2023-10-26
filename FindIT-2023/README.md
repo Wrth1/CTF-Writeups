@@ -1,0 +1,1 @@
+FindIT is an Indonesian CTF held by Universitas Gadjah Mada (UGM), I was playing with [@lordrukie](https://www.github.com/lordrukie) and [@jon-brandy](https://www.github.com/jon-brandy) and we got 2nd Place
