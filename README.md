@@ -3,8 +3,8 @@
 Collection of my CTF Writeups, mostly Indonesian CTFs
 
 ### 2023
-- COMPFEST15 - 1st Place
-- HackToday - 1st Place
+- [COMPFEST15](https://github.com/Wrth1/CTF-Writeups/tree/master/COMPFEST15-2023) - 1st Place
+- [HackToday](https://github.com/Wrth1/CTF-Writeups/tree/master/HackToday-2023) - 1st Place
 - [JOINTS](https://github.com/Wrth1/CTF-Writeups/tree/master/JOINTS-2023) - 1st Place
 - [GEMASTIK](https://github.com/Wrth1/CTF-Writeups/tree/master/GEMASTIK-2023) - 2nd Place
 - BPJS Healkathon - 2nd Place
